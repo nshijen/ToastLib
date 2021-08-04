@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 
-class MainActivity : AppCompatActivity() {
+class MainActivity{
     companion object   {
         fun showToast(context: Context, msg:String) {
             Toast.makeText(context,msg, Toast.LENGTH_SHORT).show()
